@@ -5,7 +5,6 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-
 <!DOCTYPE html>
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
@@ -57,11 +56,7 @@
 <!--[if lt IE 11]>
 <link rel="stylesheet" type="text/css" href="http://webnextbd.net/demo/css/ie.css">
 <![endif]-->
-
-<style>
-	
-</style>
-
+<link rel="icon" href="<?=base_url()?>images/favicon.png" type="image/x-icon">
 </head>
 <body class="image-background">
 
@@ -139,9 +134,10 @@
 
 <!-- content slide -->
 <div class="content-slide">
+<h3>Próximamente</h3>
 <!-- Clock Countdown -->
 <div id="clock-countdown" class="animated bounceInDown" data-animation-delay="700"></div>
-<h3 class="color-white top-margin animated bounceInDown" data-animation-delay="700" >Empresa fundada en el año 2017, nuestra visión es ofrecer un servicio de calidad el cual se orienta en dar publicidad a particulares además de pequeñas, medianas y grandes empresas.</h3>
+<h3 class="color-white top-margin animated bounceInDown" data-animation-delay="700">Empresa fundada en el año 2017. <br> Nuestra visión es ofrecer un servicio de calidad el cual se orienta en dar publicidad a particulares además de pequeñas, medianas y grandes empresas.</h3>
 
 <!-- Subscribe Form -->
 <div class="form animated bounceInUp" data-animation-delay="0">
@@ -150,7 +146,7 @@
 <!-- section page -->
 <div class="section-page" id="signup">
 <form class="subscription-form mailchimp" method="post" id="mc-form">
-<input type="email" id="email" class="border-radius-22 bottom-margin" name="email" placeholder="Ingresa tu correo electrónico" />
+<input style="text-align: center;" type="email" id="email" class="border-radius-22 bottom-margin" name="email" placeholder="Correo electrónico" />
 <button type="submit" id="subscribebtn" class="border-button no-bottom-margin">Suscríbete</button>
 </form>
 <p class="message-error"></p>
@@ -162,9 +158,9 @@
 <!-- socials icons -->
 <nav class="socials-icons animated bounceInUp" data-animation-delay="700">
 <ul>
-<li><a href="#"><i class="ion-social-facebook"></i></a></li>
-<li><a href="#"><i class="ion-social-twitter"></i></a></li>
-<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+<li><a target="_blank" href="https://www.facebook.com/Rayon.page/"><i class="ion-social-facebook"></i></a></li>
+<li><a target="_blank" href="https://twitter.com/Rayon_cl"><i class="ion-social-twitter"></i></a></li>
+<!-- <li><a href="#"><i class="ion-social-instagram"></i></a></li> -->
 </ul> 
 </nav><!-- /socials icons -->
 
@@ -197,8 +193,6 @@
 <script type="text/javascript" src="<?=base_url()?>resources/c_s/js/retina.min.js"></script>
 <script type="text/javascript" src="<?=base_url()?>resources/c_s/js/jquery.backstretch.min.js"></script>
 <script type="text/javascript" src="<?=base_url()?>resources/c_s/js/jquery.countdown.min.js"></script>
-<!-- con ese supuestamente se cambia a español xdxd -->
-<script type="text/javascript" src="<?=base_url()?>resources/c_s/js/jquery.countdown-es.js"></script>
 <script type="text/javascript" src="<?=base_url()?>resources/c_s/js/jquery.parallaxify.min.js"></script>
 <script type="text/javascript" src="<?=base_url()?>resources/c_s/js/jquery.particleground.min.js"></script>
 <script type="text/javascript" src="<?=base_url()?>resources/c_s/js/vegas.min.js"></script>
@@ -209,7 +203,7 @@
 <script type="text/javascript" src="<?=base_url()?>resources/c_s/js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="<?=base_url()?>resources/c_s/js/jquery.appear.js"></script>
 <script type="text/javascript" src="<?=base_url()?>resources/c_s/js/classie.js"></script>
-<script type="text/javascript" src="<?=base_url()?>resources/c_s/js/sidebar.js"></script>
+<!-- <script type="text/javascript" src="<?=base_url()?>resources/c_s/js/sidebar.js"></script> -->
 <script type="text/javascript" src="<?=base_url()?>resources/c_s/js/main.js"></script>
 <script type="text/javascript">
   $("#clock-countdown")
@@ -218,6 +212,14 @@
       event.strftime('%D days %H:%M:%S')
     );
   });
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102040722-1', 'auto');
+  ga('send', 'pageview');
 </script>
 
 </body>

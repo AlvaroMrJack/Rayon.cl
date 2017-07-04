@@ -1049,8 +1049,8 @@ input:-moz-placeholder { text-overflow: ellipsis; }
 
 .border-button:hover,
 .border-button:focus {
-	background: #fff;
-	color: #333;
+	background: #EE4B2E;
+	color: #fff;
 	opacity: 0.8;
 }
 
