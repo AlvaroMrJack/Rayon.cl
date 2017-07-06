@@ -139,11 +139,11 @@
 <div id="clock-countdown" class="animated bounceInDown" data-animation-delay="700"></div>
 <h3 class="color-white top-margin animated bounceInDown" data-animation-delay="700">Empresa fundada en el año 2017. <br> Nuestra visión es ofrecer un servicio de calidad el cual se orienta en dar publicidad a particulares además de pequeñas, medianas y grandes empresas.</h3>
 
-<!-- Subscribe Form -->
+<!-- 
 <div class="form animated bounceInUp" data-animation-delay="0">
-<!-- container form -->
+
 <div class="container-form">
-<!-- section page -->
+
 <div class="section-page" id="signup">
 <form class="subscription-form mailchimp" method="post" id="mc-form">
 <input style="text-align: center;" type="email" id="email" class="border-radius-22 bottom-margin" name="email" placeholder="Correo electrónico" />
@@ -151,9 +151,10 @@
 </form>
 <p class="message-error"></p>
 <p class="message-success"></p>
-</div><!-- /section page -->
-</div><!-- /container form -->
-</div><!-- /Subscribe Form -->
+</div>
+</div>
+</div>
+ -->
 
 <!-- socials icons -->
 <nav class="socials-icons animated bounceInUp" data-animation-delay="700">
